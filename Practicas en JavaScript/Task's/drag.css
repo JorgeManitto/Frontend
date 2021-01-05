@@ -1,0 +1,31 @@
+body{
+    background-color: #0275d8 ;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    margin: 30vh 20vw;
+}
+.tasks{
+    border: 1px solid #000;
+    width: 400px;
+    height: 300px;
+    
+}
+.tittle{
+    border: 1px solid #000;
+    height: 15%;
+}
+.task{
+    width: 400px;
+    height: 35px;
+    background-color: indigo;
+    border: 1px solid #000;
+}
+.active{
+    background-color: #f2f2f2;
+    color: #000;
+    
+}
