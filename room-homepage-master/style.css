@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+.nav{
+    position: absolute;
+    top: 7%;
+    left: 6%;
+}
+.nav img{
+    margin-bottom: -3px;
+    margin-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 2em;
+    text-transform: lowercase;
+} 
+.nav a:hover{
+    text-decoration: underline;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    'img img firstcontent'
+    'lefts lastcontent rights';
+    row-gap: 0%;
+    
+}
+.imagessider{
+    grid-area: img;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imagessider:nth-child(2){
+    display: none;
+}
+.imagessider:nth-child(3){
+    display: none;
+}
+.contentsider{
+    grid-area: firstcontent;
+    box-sizing: content-box;
+    padding-right:2.5em;
+    padding-top: 4.5em;
+    padding-left: 1.5em;
+}
+.img_left{
+    grid-area: lefts;
+    margin: 0;
+    padding: 0;
+}
+.lastcontent{
+    grid-area: lastcontent;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.img_right{
+    grid-area: rights;
+    
+}
+.parrafo{
+     font-size: 14px;
+     color:hsl(0, 0%, 63%);
+     box-sizing: border-box;
+     padding-top: 0;
+     padding-right: 2%;
+     font-weight:400;
+   
+}
+.link{
+    margin-top: 2.5em;
+}
+.link a{
+    letter-spacing: .5em;
+    text-decoration: none;
+    text-transform:uppercase;
+    color:  hsl(0, 0%, 63%);
+    font-size: 14px;
+    display: inline-block;
+}.arrow{
+    display: block;
+    margin-left: 35%;
+    margin-top: -4.1%;
+    cursor: pointer;
+}
+.content2,.content3{
+    display: none;
+}
+.content1 h3{
+    font-size: 2.4em;
+    font-weight: 500;
+}
+.content1:nth-child(2){
+    display: none;
+}
+.content1:nth-child(3){
+    display: none;
+}
+.icon_left,.icon_right{
+
+    position: absolute;
+    left: 10%;
+    width: 5em;
+    height: 5em;
+    box-sizing: border-box;
+    padding-left: 2.1em;
+    padding-top: 2em;
+    
+    background-color: #080808;
+    left: 58.3%;
+    top: 55%;
+    cursor: pointer;
+}
+.icon_right{
+    left: 63.9%;
+    top: 55%;
+}
+.icon_left:hover{
+    opacity: .9;
+}
+.icon_right:hover{
+    opacity: .9;
+}
+.lastcontent h3{
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+}
+.a{
+    box-sizing: border-box;
+    padding: 2% 5%;
+    margin: 0;
+}

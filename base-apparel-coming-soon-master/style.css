@@ -1,0 +1,143 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;   
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row ;
+    width: 80vw;
+    height: 80vh;
+}
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+      margin-top: 60%; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%);  }
+.content{
+    margin-left: 20%;
+    background-image: url(./images/bg-pattern-desktop.svg);
+}
+.logo{
+    margin:15% 0;
+}
+.titulo{
+    font-size: 50px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 20px;
+}
+.titulo2{
+    color:hsl(0, 6%, 24%);
+}
+.parrafo{
+    font-size: 16px;
+    color:hsl(0, 36%, 70%);
+    width: 400px;
+    margin: 8% 0;
+}
+.btn{
+     /* background-image: url(./images/logo.svg); */
+     color: white;
+     background-image:linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+     border-radius: 29px;
+     border: none;
+     box-shadow: 2px 5px 10px hsla(0, 36%, 70%, 0.5);
+     margin-left: -50px;
+     vertical-align: top;
+     width: 78px;
+     height: 44px;
+    cursor: pointer;
+    
+}
+
+.input {
+    width: 350px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 16px;
+    color: hsl(0, 36%, 70%);
+}
+.inputMsg {
+    color: red;
+    display: none;
+}
+.error{
+  display:none;
+}
+.imgerror{
+      
+    margin-left: -80px;
+    margin-bottom: -8px;
+}
+.inputjv{
+    border: 1px solid red;
+}
+.btnerror{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+.inputok{
+    border: 1px solid green;
+    color: green;
+}
+.btnok{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    background:green;
+}
+.imgmobile{
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .conteiner{
+        display: flex;
+        flex-direction: column ;
+       
+    }
+    .image{
+        display: none;
+    }
+    .imgmobile{
+        display: inline;
+    }
+    .content{
+        margin-left: 0%;
+        align-items: center;
+        text-align: center;
+    }
+    .btn{
+        /* position: absolute;
+        top: 91.8%;
+        left: 91.5%; */
+        margin-left: 278px;
+        margin-top: -45px;
+    }
+    .parrafo{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .form{
+        width: 300px;
+    }
+    .imgerror{
+      
+        display: none;
+        
+    }
+    .inputMsg{
+        margin: 0;
+    }
+    .btnerror{
+        margin-left: 278px;
+        margin-top: -63.5px;
+    }
+    .attribution{
+        margin: 0;
+    }
+}
