@@ -1,0 +1,21 @@
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    
+}
+.tasks p{
+    
+}
+.button{
+    background-color: orangered;
+    border: none;
+    padding:0.2rem 0.8rem;
+    border-radius: 15px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.button:hover{
+    color: #f2f2f2;
+}
