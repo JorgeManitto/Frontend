@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal con vue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+    <div class="parent" id="app">
+        <div class="div1 box" @click = "append(1)">1 </div>
+        <div class="div2 box" @click = "append(2)">2 </div>
+        <div class="div3 box" @click = "append(3)">3</div>
+        <div class="div4 box" @click = "append(4)">4</div>
+        <div class="div5 box" @click = "append(5)">5</div>
+        <div class="div6 box" @click = "append(6)">6</div>
+        <div class="div7 box" @click = "append(7)">7</div>
+        <div class="div8 box" @click = "append(8)">8</div>
+        <div class="div9 box" @click = "append(9)">9</div>
+        <div class="div10 box" @click = "append(0)">0</div>
+        <div class="div11 box" @click = "dot()">.</div>
+        <div class="div12 box" @click = "equal()">=</div>
+        <div class="div13 box" @click = "minus">-</div>
+        <div class="div14 box" @click = "add">+</div>
+        <div class="div15 box" @click = "times">*</div>
+        <div class="div16 box" @click = "divide">/</div>
+        <div class="div17 box" @click = "percent()">%</div>
+        <div class="div18 box" @click = "sing()"> +/-</div>
+        <div class="div19 box" @click = "clear()">AC</div>
+        <div class="div20"> {{current || '0'}}</div>
+        </div> 
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+   
+</body>
+</html>
