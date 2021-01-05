@@ -1,0 +1,33 @@
+*{
+    margin: 15px;
+}
+.rojo{
+    width: 120px;
+    height: 90px;
+    background-color: red;
+    color: beige;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.azul{
+    width: 120px;
+    height: 90px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.verde{
+    width: 120px;
+    height: 90px;
+    background-color: green;
+    color: wheat;
+    border-radius: 5px;
+    border: 1px solid #000;
+}/*
+.demo {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    background-color: yellow;
+}*/
